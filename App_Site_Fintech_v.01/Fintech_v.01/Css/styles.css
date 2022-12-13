@@ -1,0 +1,324 @@
+body{
+  background-color: black;
+  background-image: url(./assets/img/vtbckgALTR02.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+}
+
+a {
+  text-decoration: none;
+}
+
+.customperfil {
+  background-color: rgba(2, 2, 2, 0.815);
+  padding: 0.3rem 1rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  color: #CE6F6F;
+  width: 160px;
+  font-weight: 500;
+  text-align:center;
+}
+
+.btn-cd {
+  background-color: white;
+  text-decoration: none;
+  color: #CE6F6F;
+  font-family: sans-serif;
+}
+
+.btn-cd:hover{
+  background-color: white;
+  color: #08ffff;
+}
+
+.addperfil {
+  color: #CE6F6F;
+  font-family: Adam Script;  
+}
+
+.imglogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:static;
+  text-align: middle; 
+  width: 13rem;
+}
+
+.engrenagem{
+  content: icon;
+}
+
+.circle{
+  border-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;  
+  box-shadow: 0.1px 0.1px 25px #fff;
+  margin-right: 67px;
+}
+
+.circle p {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 10px;
+  color: white;
+  margin-top: 4em;
+}
+
+.carteira{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1mm;
+}
+
+.titulopg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 4mm;
+  color: #CE6F6F;
+  font-family: sans-serif;
+  
+}
+
+.btn-menu{
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+#pontos3{  
+  margin-left: 2em;
+}
+
+#logo {
+  width: 15rem;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+#brigImg {
+  width: 5rem;
+  border-radius: 50%;  
+}
+
+.form-control1 {
+  position: absolute;
+  margin: 5px 5px 5px 5px;
+  padding: 1px 1px;
+}
+
+.input-group1 {
+  position: absolute;
+  margin-left: 12rem;
+  width: 30%;
+  border-radius: 1 1 1 1;  
+  margin-left: 50px;
+  margin-right: auto;
+  border: hidden;
+  background-color: rgb(255, 255, 255)
+}
+
+.btn-soma{  
+  border-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  background-color: #00000000;
+}
+
+#caixa-ssbcc{ 
+  border-radius: 0.375rem;
+  border: hidden;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-subtracao{
+  position: absolute;
+  margin-left: 3rem;
+  border-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  background-color: #00000000;
+}
+
+.btn-banco{
+  position: absolute;
+  margin-left: 3rem;
+  border-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  background-color: #00000000;
+}
+
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  margin-right: 3rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fdfdfd31;
+  background-clip: padding-box;
+  border: 1px solid #ced4da00;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#pdf{
+  text-decoration-color: #CE6F6F;
+}
+
+.pdf-img{
+  position: relative;
+  border: hidden;
+  margin-top: 1mm;
+}
+
+#relatorio{
+  position: relative;
+  color: white  
+}
+
+#pdf-rlt{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5mm 3rem;  
+}
+
+#nav-topo{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress{ 
+  margin-bottom: 1.5mm;
+  width: 13rem;
+  margin-left: 5px;
+  margin-top: 2mm;
+}
+
+.progress-bar{
+  background-color: #ce6f6f;
+}
+
+#suaeconomia{
+  position: absolute;
+  align-items: center;
+  font-size: 4mm;
+  color: #CE6F6F;
+  font-family: sans-serif;
+  
+  margin-bottom: 1rem;
+}
+
+#dinheiro{  
+  color: rgb(82, 231, 144);
+  margin-left: 11rem;  
+}
+
+
+.btn-proximo {  
+  background-color: none;
+  text-decoration: none;
+  color: #CE6F6F;
+  font-family: sans-serif;
+}
+
+.btn-proximo:hover{
+  background-color: white;
+  color: #08ffff;
+  
+}
+
+.objetivo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.centralizar2{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* align-content: center; */
+  justify-content: center;
+  /* align-items: center;
+  margin-top: 5mm; */
+
+}
+
+.container{
+  margin-top: 15px;
+  width: 400px;
+  height: 120px;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.row{
+  gap: 3px;  
+  --bs-gutter-x: 2rem;
+  --bs-gutter-y: 2px;
+} 
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+  flex-wrap: nowrap;
+  align-content: center;
+}
